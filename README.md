@@ -106,12 +106,12 @@ cd datasets
 ## Usage
 
 We provide scripts to train and evaluate the scene coordinate regression networks.
-In the following sections we'll detail some of the main command line options that can be used to customize the
+In the following sections, we'll detail some of the main command line options that can be used to customize the
 behavior of both the training and the pose estimation script.
 
 ### Training
 
-First, keypoints need to be extracted and matched offline to enable sequence-based training. We provide the `feature_matching_for_traing.py` script where `dataroot` and `sequences` need to be modified according to your own paths.
+First, keypoints need to be extracted and matched offline to enable sequence-based training. We provide the `feature_matching_for_traing.py` script where `dataroot` and `sequences` must be modified according to your own paths.
 
 ```shell
 python feature_matching_for_traing.py <dataroot> <sequences>
@@ -126,7 +126,7 @@ Basic usage:
 ```shell
 ./train_ace.py <scene path> <output map name>
 # Example:
-./train_ace.py datasets/7scenes_chess output/7scenes_chess.pt
+./train_ace.py datasets/pgt_7scenes_chess output/pgt_7scenes_chess.pt
 ```
 
 The output map file contains just the weights of the scene-specific head network -- encoded as half-precision floating
@@ -143,7 +143,7 @@ Basic usage:
 ```shell
 ./test_ace_feature.py <scene path> <output map name>
 # Example:
-./test_ace_feature.py datasets/7scenes_chess output/7scenes_chess.pt
+./test_ace_feature.py datasets/pgt_7scenes_chess output/pgt_7scenes_chess.pt
 ```
 
 
