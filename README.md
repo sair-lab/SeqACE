@@ -114,7 +114,9 @@ behavior of both the training and the pose estimation script.
 First, keypoints need to be extracted and matched offline to enable sequence-based training. We provide the `feature_matching_for_traing.py` script where `dataroot` and `sequences` need to be modified according to your own paths.
 
 ```shell
-python feature_matching_for_traing.py
+python feature_matching_for_traing.py <dataroot> <sequences>
+# Example:
+python feature_matching_for_traing.py datasets pgt_7scenes_chess pgt_7scenes_heads
 ```
 
 

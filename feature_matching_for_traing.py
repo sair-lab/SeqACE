@@ -4,6 +4,7 @@ import os
 import cv2
 import numpy as np
 import time
+import argparse
 
 from pathlib import Path
 import torch
@@ -155,9 +156,20 @@ def process_sequence(seq_root, feature):
 
 if __name__ == '__main__':
 
+    parser = argparse.ArgumentParser(
+        description='Image feature matching for a specific sequence is processed through a specified list of data paths and scenes.',
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    
+    parser.add_argument('dataroot', type=Path,
+                        help='The root catalog of the dataset, e.g. "/home/user/project/datasets"')
+    
+    parser.add_argument('sequences', type=str, nargs='+',
+                        help='A list of sequences to be processed, e.g. "pgt_7scenes_chess pgt_7scenes_heads"')
 
-    dataroot = "/home/xukuan/project/seq_ace/seq_scr/datasets"
-    sequences = ['pgt_7scenes_chess', 'pgt_7scenes_heads', 'pgt_7scenes_pumpkin', 'pgt_7scenes_fire', 'pgt_7scenes_office', 'pgt_7scenes_redkitchen', 'pgt_7scenes_stairs']
+    args = parser.parse_args()
+
+    # dataroot = "/home/xukuan/project/seq_ace/seq_scr/datasets"
+    # sequences = ['pgt_7scenes_chess', 'pgt_7scenes_heads', 'pgt_7scenes_pumpkin', 'pgt_7scenes_fire', 'pgt_7scenes_office', 'pgt_7scenes_redkitchen', 'pgt_7scenes_stairs']
     # sequences = ['Cambridge_GreatCourt', 'Cambridge_KingsCollege', 'Cambridge_OldHospital', 'Cambridge_ShopFacade', 'Cambridge_StMarysChurch']
     # sequences = ['wayspots_bears', 'wayspots_cubes', 'wayspots_inscription', 'wayspots_lawn', 'wayspots_map', 'wayspots_squarebench', 'wayspots_statue', 'wayspots_tendrils', 'wayspots_therock', 'wayspots_wintersign']
     # sequences = ['pgt_12scenes_apt1_kitchen', 'pgt_12scenes_apt1_living', 'pgt_12scenes_apt2_bed', 
@@ -170,11 +182,11 @@ if __name__ == '__main__':
 
     train_feature_num = 1000
     train_feature = Feature(train_feature_num)
-    for seq in sequences:
+    for seq in args.sequences:
         print("processing {} ....".format(seq))
-        seq_root = os.path.join(dataroot, seq)
-        traing_root = os.path.join(seq_root, "train")
-        process_sequence(traing_root, train_feature)
+        seq_root = args.dataroot / seq
+        traing_root = seq_root / "train"
+        process_sequence(str(traing_root), train_feature)
 
     time1 = time.time()
     print("time = {}".format(time1 - time0))
