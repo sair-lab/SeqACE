@@ -73,6 +73,7 @@ dependencies:
   - jpeg=9e=h5eee18b_1
   - jxrlib=1.1=h7b6447c_2
   - kiwisolver=1.4.4=py38h6a678d5_0
+  - kornia=0.7.1=pyhd8ed1ab_0
   - krb5=1.19.4=h568e23c_0
   - lame=3.100=h7b6447c_0
   - lcms2=2.12=h3be6417_0
