@@ -23,7 +23,7 @@
 
 
 <p align="middle">
-  <img src="figures/scr.jpg" width="500" />
+  <img src="figures/scr.jpg" width="600" />
 </p>
 
 
