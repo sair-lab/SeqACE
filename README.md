@@ -29,7 +29,7 @@
 
 In this paper, we propose an efficient scene coordinate encoding and relocalization method. Compared with the existing SCR methods, we design a unified architecture for both scene encoding and salient keypoint detection, enabling our system to focus on encoding informative regions, thereby significantly enhancing efficiency.
 Additionally, we introduce a mechanism that leverages sequential information during both map encoding and relocalization, which strengthens implicit triangulation, particularly in repetitive texture environments. Comprehensive experiments conducted across indoor and outdoor datasets demonstrate the proposed system outperforms other state-of-the-art (SOTA) SCR methods. 
-Our single-frame relocalization mode improves the recall rate of our baseline by 6.4\% and increases the running speed from 56$\hertz$ to 90$\hertz$.
+Our single-frame relocalization mode improves the recall rate of our baseline by 6.4\% and increases the running speed from 56Hz to 90Hz.
 Furthermore, our sequence-based mode increases the recall rate by 11\% while maintaining the original efficiency.
 
 <p align="middle">
@@ -147,7 +147,7 @@ Basic usage:
 
 ## Publications
 
-If you use ACE or parts of its code in your own work, please cite:
+If you use our code in your own work, please cite:
 
 ```
 @inproceedings{brachmann2023ace,
