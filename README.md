@@ -147,9 +147,9 @@ Basic usage:
 ```
 
 
-## Publications
+<!-- ## Publications
 
-If you use our code in your own work, please cite:
+If you use ACE or parts of its code in your own work, please cite:
 
 ```
 @inproceedings{brachmann2023ace,
@@ -169,7 +169,7 @@ Our code builds on ACE. Please consider citing:
     booktitle={CVPR},
     year={2023},
 }
-```
+``` -->
 
 ## License
 
