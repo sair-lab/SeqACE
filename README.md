@@ -14,12 +14,13 @@
     <a href = "https://sairlab.org/">2: Spatial AI & Robotics (SAIR) Lab, Computer Science and Engineering, University at Buffalo</a><br>
 </strong></p>
 
-<!-- <p align="center"><strong> 
-    <a href = "https://arxiv.org/pdf/2408.03520">&#128196; [Arxiv]</a> | 
-    <a href = "https://xukuanhit.github.io/airslam/">&#128190; [Project Site]</a> |
+<p align="center"><strong> 
+    <a href = "https://arxiv.org/abs/2412.06488">&#128196; [Arxiv]</a>
+    <!-- <a href = "https://arxiv.org/abs/2412.06488">&#128196; [Arxiv]</a> |  -->
+    <!-- <a href = "https://xukuanhit.github.io/airslam/">&#128190; [Project Site]</a> |
     <a href = "https://youtu.be/5OcR5KeO5nc">&#127909; [Youtube]</a> |
-    <a href = "https://www.bilibili.com/video/BV1rJY7efE9x">&#127909; [Bilibili]</a>
-</strong></p> -->
+    <a href = "https://www.bilibili.com/video/BV1rJY7efE9x">&#127909; [Bilibili]</a> -->
+</strong></p>
 
 
 <p align="middle">
@@ -147,16 +148,19 @@ Basic usage:
 ```
 
 
-<!-- ## Publications
+## Publications
 
-If you use ACE or parts of its code in your own work, please cite:
+If you our code in your own work, please cite:
 
 ```
-@inproceedings{brachmann2023ace,
-    title={Accelerated Coordinate Encoding: Learning to Relocalize in Minutes using RGB and Poses},
-    author={Brachmann, Eric and Cavallari, Tommaso and Prisacariu, Victor Adrian},
-    booktitle={CVPR},
-    year={2023},
+@misc{xu2024efficientscenecoordinateencoding,
+      title={An Efficient Scene Coordinate Encoding and Relocalization Method}, 
+      author={Kuan Xu and Zeyu Jiang and Haozhi Cao and Shenghai Yuan and Chen Wang and Lihua Xie},
+      year={2024},
+      eprint={2412.06488},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2412.06488}, 
 }
 ```
 
@@ -169,7 +173,7 @@ Our code builds on ACE. Please consider citing:
     booktitle={CVPR},
     year={2023},
 }
-``` -->
+```
 
 ## License
 
