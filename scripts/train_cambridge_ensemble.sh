@@ -33,7 +33,7 @@ for scene in ${scenes[*]}; do
   done
 
   python $merging_exe "$current_out_dir" "$current_out_dir/merged_poses_${num_clusters}.txt" --poses_suffix "_${num_clusters}.txt"
-  python $eval_exe "$datasets_folder/$scene" --test_mode 0 "$current_out_dir/merged_poses_${num_clusters}.txt" 2>&1 | tee "$current_out_dir/eval_merged_${num_clusters}.txt"
+  python $eval_exe "$datasets_folder/$scene" "$current_out_dir/merged_poses_${num_clusters}.txt" 2>&1 | tee "$current_out_dir/eval_merged_${num_clusters}.txt"
 done
 
 for scene in ${scenes[*]}; do
