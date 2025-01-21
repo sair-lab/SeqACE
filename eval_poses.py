@@ -51,7 +51,7 @@ if __name__ == '__main__':
     pct1 = 0
 
     # Iterate over the dataset.
-    for image_idx, (_, _, gt_pose, _, _, _, _, image_file, _, _, _) in enumerate(testset):
+    for image_idx, (_, _, gt_pose, _, _, _, _, image_file, _) in enumerate(testset):
         # Parse estimated pose from the input file.
         pose_file, qw, qx, qy, qz, tx, ty, tz, _, _, _ = frame_poses[image_idx].split()
 
