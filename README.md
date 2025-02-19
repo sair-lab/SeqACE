@@ -145,6 +145,8 @@ Basic usage:
 ./test_ace_feature.py <scene path> <output map name>
 # Example:
 ./test_ace_feature.py datasets/pgt_7scenes_chess output/pgt_7scenes_chess.pt
+# Run single mode:
+./test_ace_feature.py datasets/pgt_7scenes_chess output/pgt_7scenes_chess.pt --test_mode 2
 ```
 
 
