@@ -2,7 +2,7 @@
 
 <p align="center"><strong>
     <a href = "https://scholar.google.com/citations?user=-p7HvCMAAAAJ&hl=zh-CN">Kuan Xu</a><sup>1</sup>,
-    <a href = "https://scholar.google.com/citations?user=i3Lr8_8AAAAJ&hl=zh-CN">Zeyu Jiang</a><sup>1</sup>,
+    <a href = "https://the-masses.github.io/">Zeyu Jiang</a><sup>1</sup>,
     <a href = "https://aroncao49.github.io/">Haozhi Cao</a><sup>1</sup>,
     <a href = "https://scholar.google.com/citations?user=XcV_sesAAAAJ&hl=en">Shenghai Yuan</a><sup>1</sup>,
     <a href = "https://sairlab.org/team/chenw/">Chen Wang</a><sup>2</sup>,
