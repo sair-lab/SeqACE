@@ -15,8 +15,8 @@
 </strong></p>
 
 <p align="center"><strong> 
-    <a href = "https://arxiv.org/abs/2412.06488">&#128196; [PDF]</a>
-    <a href = "supplementary/Additional_experimental_results.pdf">&#128202; [Supplementary]</a> | 
+    <a href = "https://arxiv.org/abs/2412.06488">&#128196; [PDF]</a> &nbsp; &nbsp; | &nbsp; &nbsp;
+    <a href = "supplementary/Additional_experimental_results.pdf">&#128202; [Supplementary]</a> 
     <!-- <a href = "https://xukuanhit.github.io/airslam/">&#128190; [Project Site]</a> |
     <a href = "https://youtu.be/5OcR5KeO5nc">&#127909; [Youtube]</a> |
     <a href = "https://www.bilibili.com/video/BV1rJY7efE9x">&#127909; [Bilibili]</a> -->
