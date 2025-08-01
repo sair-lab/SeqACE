@@ -1,4 +1,5 @@
-<h1 align="center">An Efficient Scene Coordinate Encoding and Relocalization Method</h1>
+<h1 align="center">Enhancing Scene Coordinate Regression with Efficient Keypoint
+Detection and Sequential Information</h1>
 
 <p align="center"><strong>
     <a href = "https://scholar.google.com/citations?user=-p7HvCMAAAAJ&hl=zh-CN">Kuan Xu</a><sup>1</sup>,
