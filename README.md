@@ -15,8 +15,8 @@
 </strong></p>
 
 <p align="center"><strong> 
-    <a href = "https://arxiv.org/abs/2412.06488">&#128196; [Arxiv]</a>
-    <!-- <a href = "https://arxiv.org/abs/2412.06488">&#128196; [Arxiv]</a> |  -->
+    <a href = "https://arxiv.org/abs/2412.06488">&#128196; [PDF]</a>
+    <a href = "supplementary/Additional_experimental_results.pdf">&#128202; [Supplementary]</a> | 
     <!-- <a href = "https://xukuanhit.github.io/airslam/">&#128190; [Project Site]</a> |
     <a href = "https://youtu.be/5OcR5KeO5nc">&#127909; [Youtube]</a> |
     <a href = "https://www.bilibili.com/video/BV1rJY7efE9x">&#127909; [Bilibili]</a> -->
@@ -38,6 +38,11 @@ Furthermore, our sequence-based mode increases the recall rate by 11\% while mai
 </p>
 
 ----------------------------------------------------------------------------------------
+
+
+## Updates
+* [2025.07] The paper was officially accepted to IEEE Robotics and Automation Letters (RA-L).
+* [2024.12] The code was relesed.
 
 
 ## Installation
@@ -176,6 +181,13 @@ Our code builds on ACE. Please consider citing:
     year={2023},
 }
 ```
+
+## Additional Experiments
+
+The additional evaluation and comparison results are provided in [this file](supplementary/Additional_experimental_results.pdf).
+
+
+
 
 ## License
 
