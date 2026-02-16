@@ -161,14 +161,14 @@ Basic usage:
 If you our code in your own work, please cite:
 
 ```
-@misc{xu2024efficientscenecoordinateencoding,
-      title={An Efficient Scene Coordinate Encoding and Relocalization Method}, 
-      author={Kuan Xu and Zeyu Jiang and Haozhi Cao and Shenghai Yuan and Chen Wang and Lihua Xie},
-      year={2024},
-      eprint={2412.06488},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2412.06488}, 
+@article{xu2025enhancing,
+  title = {Enhancing Scene Coordinate Regression with Efficient Keypoint Detection and Sequential Information},
+  author = {Xu, Kuan and Jiang, Zeyu and Cao, Haozhi and Yuan, Shenghai and Wang, Chen and Xie, Lihua},
+  journal = {IEEE Robotics and Automation Letters (RA-L)},
+  year = {2025},
+  volume = {10},
+  number = {10},
+  pages = {9932-9939}
 }
 ```
 
